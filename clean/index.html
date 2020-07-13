@@ -1,0 +1,782 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.maskedinput.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>ULTRA CLEAN PREMIUM DETOX</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <style>select{-webkit-appearance: none !important;}</style>
+</head>
+
+<body>
+    <!--SECTION ONE-->
+    <section class="sec-one">
+        <!--MENU-->
+        <div class="container" id="navigate">
+            <div class="row">
+                <div class="menu hidden-sm hidden-xs hidden-md">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+                            <!--Название сайта и кнопка раскрытия меню для мобильных-->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <!--Само меню-->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><span data-href="#how-work">How does it work?</span></li>
+                                    <li><span data-href="#expert">Expert opinion</span></li>
+                                    <li><span data-href="#composition">Ingredients</span></li>
+                                    <li><span data-href="#reviews-sec">Reviews</span></li>
+                                    <li><span data-href="#how-get">How to get it?</span></li>
+                                </ul>
+                                <div class="menu-buy col-sm-1 col-lg-2">
+                                    <ul class="nav navbar-nav">
+                                        <li><span class="btn-buy text-center to-form">BUY NOW!</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--HEADER END-->
+
+        <div class="sec-one-content">
+            <div class="container">
+                <div class="row">
+                    <div class="sec-one-header text-center col-md-10 col-md-offset-1">
+                        <p class="prod-name">ULTRA CLEAN PREMIUM DETOX</p>
+                        <p class="sec-one__pretitle">REMOVES PARASITES, HELMINTHS AND TOXINS FROM YOUR BODY</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sec-one-offer col-sm-6 col-lg-4 col-lg-push-4 text-center">
+                        <img src="img/offer.png" alt="" class="sec-one-offer-img img-responsive">
+                    </div>
+                    <div class="sec-one-form col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-lg-4 col-lg-push-4"
+                        id="sec-one-form">
+                        <div class="sec-one-form__discount text-center">
+                            <p style=" display:inline" class="wv_discount">-50%</p> OFF
+                        </div>
+                        <div class="sec-one-form__timer text-center">
+
+                            <p class="timer-end"><b>Hurry Up! </b><b style=" color:#f10101"> Only <span class="count_products">25</span> packs left!</b></p>
+                            <div class="countdown-container" id="countdown-container">
+                            </div>
+
+                        </div>
+
+                        <div class="sec-one__prices text-center">
+                            <span class="price-old wv_old-price x_currency_old">35,998₦</span>
+                            <span class="price-new wv_new-price x_currency">17,999₦</span>
+                        </div>
+
+                        <form name="myForm" action="" method="POST" class="wv_order-form form_order">
+                            <div class="form-group target_list_wrap">
+                                <select  name="country_code" id="city" class=" wv_phone form-control js-select"><option value="NG" data-price="17,999₦" data-old_price="35,998₦" data-country_code="NG">Nigeria</option></select>
+                            </div>
+                            <div class="form-group">
+                                <select name="custom[city]" class="wv_phone form-control" required>
+                                    <option value="">Choose city</option>
+                                    <option value="lagos">Lagos</option>
+                                    <option value="abuja">Abuja</option>
+                                    <option value="ibadan">Ibadan</option>
+                                    <option value="owerri">Owerri</option>
+                                    <option value="akure">Akure</option>
+                                    <option value="osogbo">Osogbo</option>
+                                    <option value="ife">Ife</option>
+                                    <option value="ekiti">Ekiti</option>
+<option value="benin">Benin</option>
+                                    <option value="portharcourt">Port Harcourt</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"></label>
+                                <input id="name" name="client" type="text" class="wv_name form-control" placeholder="Name"
+                                    required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone"></label>
+                                <input id="phone" name="phone" type="text" class=" wv_phone form-control phone_mask"
+                                    placeholder="Phone number:" required="">
+                            </div>
+                            <div class="sec-one-form__discount text-center"><b style=" color:#f10101; font-size: 16px; text-transform: uppercase;">Delivery only to Lagos, Abuja, Ibadan, Calabar, Owerri, Akure, Osogbo, Ife, Ekiti, Benin, Port Harcourt. Delivery is FREE!</b>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn-buy" type="submit">BUY NOW!</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="sec-one-advantages col-xs-12 col-sm-12 col-lg-4 col-lg-pull-8 ">
+
+                        <div class="row">
+                            <div class="advant col-xs-6 col-lg-12 col-lg-offset-0">
+                                <img src="img/body.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">REMOVES PARASITES FROM YOUR BODY </p>
+                                   
+                                </div>
+                            </div>
+                            <div class="advant col-xs-6 col-lg-12 col-lg-offset-0">
+                                <img src="img/leaf.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">CLEANSES THE BODY OF TOXINS</p>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="advant col-xs-6  col-lg-12 col-lg-offset-0">
+                                <img src="img/apple.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">AIDS WEIGHT LOSS </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="advant col-xs-6 col-lg-12 col-lg-offset-0">
+                                <img src="img/arrow.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">PROTECTS THE LIVER FROM HARMFUL INFLUENCES</p>
+                                 
+                                </div>
+                            </div>
+                            <div class="advant hidden-xs hidden-sm hidden-md col-lg-12">
+                                <img src="img/circle.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">NORMALIZES METABOLISM </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text-center col-md-10 col-md-offset-1" style="margin-bottom: 50px">
+                        <p class="sec-one__pretitle">UNIQUE DIETARY SUPPLEMENT THAT REMOVES PARASITES AND HELMINTHS FROM YOUR BODY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-two">
+        <div class="container">
+            <div class="row">
+                <div class="sec-two-right-block hidden-xs col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 col-lg-push-6">
+                    <img src="img/sec-two--fat-girl.png" alt="толстая девушка" class="sec-two-right-block__girl-img img-responsive">
+                </div>
+                <div class="sec-two-left-block col-xs-12 col-lg-6 col-lg-offset-0 col-lg-pull-6">
+                    <h2 class="sec-two-left-block__title">Check for the signs of infection!</h2>
+                <div class="sec-two-left-block__pretitle">Makes you look 5-10 years older</div>
+                <p class="sec-two-left-block__info"><b>The excess of toxins</b>  is not only harmful to your health, but also affects your youth and beauty. <b>After intoxication you get</b>:</p>
+                <ul class="sec-two-left-block__list">
+                    <li class="">Allergy (rash, watery eyes, runny nose)</li>
+                    <li class="">Frequent colds, sore throat, nasal congestion</li>
+                    <li class="">Chronic fatigue (you get tired quickly, regardless of what you do)</li>
+                    <li class="">Frequent headaches, constipation, and diarrhea</li>
+                    <li class="">Joints and muscle pain</li>
+                    <li class="">Nervousness, sleep disturbance, and loss of appetite</li>
+                    <li class="">Dark circles, baggy eyes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-three">
+        <div class="container">
+            <div class="row">
+                <div class="sec-three-header col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 text-center">
+                    <h1 class="sec-three__title">HOW DO PARASITES AND TOXINS GET INTO THE BODY?</h1>
+                   
+                </div>
+            </div>
+            <div class="sec-three-simptoms">
+
+                <div class="row">
+                    <div class="simptoms-simptom col-xs-5 col-xs-offset-1 col-lg-2 col-lg-offset-1">
+                        <img src="img/simptom1.png" alt="" class="simptom-img img-responsive">
+                        <p class="simptom__text">Public places</p>
+                    </div>
+
+                    <div class="simptoms-simptom col-xs-5 col-lg-2 col-lg-offset-0">
+                        <img src="img/simptom2.png" alt="" class="simptom-img img-responsive">
+                        <p class="simptom__text">Pets</p>
+                    </div>
+
+                    <div class="simptoms-simptom col-xs-5 col-xs-offset-1 col-lg-2 col-lg-offset-0">
+                        <img src="img/simptom3.png" alt="" class="simptom-img img-responsive">
+                        <p class="simptom__text">Things</p>
+                    </div>
+
+                    <div class="simptoms-simptom col-xs-5 col-lg-2 col-lg-offset-0">
+                        <img src="img/simptom4.png" alt="" class="simptom-img img-responsive">
+                        <p class="simptom__text">Air pollution</p>
+                    </div>
+
+                    <div class="simptoms-simptom col-xs-4 col-xs-offset-4 col-lg-2 col-lg-offset-0">
+                        <img src="img/simptom5.png" alt="" class="simptom-img img-responsive">
+                        <p class="simptom__text">Fecal matter</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="sec-three-footer text-center">
+                    <div class="sec-three-footer--wrap">
+                        <h1 class="sec-three__title">TOXINS ARE EVERYWHERE</h1>
+                        <p class="sec-three__agit-text">It's time to detox your body!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-two">
+        <div class="container">
+            <div class="row">
+                <div class="sec-two-right-block hidden-xs col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 col-lg-push-6">
+                    <img src="img/bg-section2.png" alt="толстая девушка" class="sec-two-right-block__girl-img img-responsive">
+                </div>
+                <div class="sec-two-left-block col-xs-12 col-lg-6 col-lg-offset-0 col-lg-pull-6">
+                    <h2 class="sec-two-left-block__title">15 million people die every year falling victims to parasites!</h2>
+                    <div class="sec-two-left-block__pretitle">Beware! Parasites!</div>
+                   
+                    <ul class="sec-two-left-block__list">
+                        <li class="">Parasites & toxins infect your liver, lungs, brain and heart and lead to serious diseases and cancers</li>
+                        <li class="">Affect your liver, lungs, brain, and heart</li>
+                        <li class="">Can grow up to 15 inches and lay 250 eggs in a single time</li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-four hidden-xs">
+        <div class="container">
+            <div class="row">
+                <h1 class="sec-four-title text-center">What is the danger of other remedies?</h1>
+                <div class="sec-four-sicks">
+                    <div class="sicks-sick col-sm-5 col-sm-offset-1 col-lg-3 col-lg-offset-0">
+                        <img src="img/sick1.png" alt="" class="sick-img">
+                        <p class="sick__text">Strong laxative effect </p>
+                    </div>
+
+                    <div class="sicks-sick col-sm-5 col-lg-3 col-lg-offset-0">
+                        <img src="img/sick2.png" alt="" class="sick-img">
+                        <p class="sick__text">Metabolism interruption</p>
+                    </div>
+                    <div class="clearfix hidden-md hidden-lg"></div>
+                    <div class="sicks-sick col-sm-5 col-sm-offset-1 col-lg-3 col-lg-offset-0">
+                        <img src="img/sick3.png" alt="" class="sick-img">
+                        <p class="sick__text">Deficit of vitamins</p>
+                    </div>
+
+                    <div class="sicks-sick col-sm-5 col-lg-3 col-lg-offset-0">
+                        <img src="img/sick4.png" alt="" class="sick-img">
+                        <p class="sick__text">Harms internal organs functions</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-five" id="how-work">
+        <div class="container">
+            <div class="row">
+                <div class="sec-five-howwork text-center col-lg-10 col-lg-offset-1">
+                    <h1 class="howwork__title--blue">How does ULTRA CLEAN PREMIUM DETOX work?</h1>
+                    <p class="howwork__text"><b>ULTRA CLEAN PREMIUM DETOX</b> is the innovative product developed by scientists, which is effective in case of all kinds of intoxication. The product removes not only toxins, but parasites too and has impressive weight loss effect. So it's 3 in 1!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-six" id="expert">
+        <div class="container">
+            <div class="row">
+                <div class="sec-six-wrap">
+    
+                    <div class="sec-six-header">
+                        <h2 class="sec-six-header__title col-lg-7">EXPERT OPINION</h2>
+                    </div>
+                    <div class="sec-six-right-block col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-lg-5 col-lg-offset-0">
+                        <img src="img/sec-six--medic.png" alt="doctor"
+                             class="sec-six-right-block__medic-img img-responsive">
+                    </div>
+                    <div class="sec-six-left-block col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-lg-7 col-lg-offset-0">
+                        <p class="sec-six-left-block__text hidden-xs">There are thousands of parasites that can live in your liver, brain, lungs, blood, stomach. And almost all of them are deadly, but many people do not pay attention on this problem</p>
+                        
+                        <h2 class="sec-six-left-block__citate"><span class="citate-drops">„</span>Today, ULTRA CLEAN PREMIUM DETOX is the most effective product for cleansing the body of parasites<span class="citate-drops">“</span></h2>
+                        
+                        <p class="sec-six-left-block__text"> Today ULTRA CLEAN PREMIUM DETOX is the only working tool for cleasing the body from parasites. Compared with other antiparasitic drugs, this tool works immediately against the entire spectrum of parasites that people can be infected with. It is almost impossible to understand what kind of parasites a person is infected with. And Ultra Slim Premium Detox destroys and sweeps out parasites from anywhere in the body - from the colon and the intestines to the liver and intestines. None of the existing drugs are capable of this anymore.</p>
+                        <p class="sec-six-left-block__author">Neelima Fox<br>
+                            <b>Ph.D. in Parasitology</b>
+                            <br>
+                            *Consult your doctor
+                        </p>
+                    </div>
+                    <div class="btn-buy col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 to-form">
+                        <span>Remove parasites</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-seven text-center" id="composition">
+        <div class="container">
+            <div class="row">
+                <div class="sec-seven-header col-xs-10 col-xs-offset-1 col-lg-12 col-lg-offset-0 ">
+                    <h1 class="sec-seven-title">ULTRA CLEAN PREMIUM DETOX </h1>
+                    <h2 class="h2 sec-seven-pretitle">THE POWER OF NATURAL COMPONENTS AND SCIENTIFIC ACHIEVEMENTS</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="sec-seven-powers hidden-xs">
+                    <div class="row ">
+                        <div class="powers-power col-sm-4 col-sm-offset-2 col-lg-2 col-lg-offset-2" data-toggle="modal"
+                            data-target="#power1">
+                            <img src="img/power1.png" alt="" class="power-img img-responsive">
+                            <p class="power__text">WHITE ACTIVATED CARCOAL</p>
+                            <span class="glyphicon glyphicon-plus-sign power__plus-ico"></span>
+                        </div>
+                        <!--MODAL power1-->
+
+                        <!---->
+
+                        <div class="powers-power col-sm-4 col-sm-offset-0 col-lg-2 col-lg-offset-1" data-toggle="modal"
+                            data-target="#power2">
+                            <img src="img/power2.png" alt="" class="power-img img-responsive">
+                            <p class="power__text">SUPER HIGH<br>SORPTION AREA (400 m2/g)</p>
+                            <span class="glyphicon glyphicon-plus-sign power__plus-ico"></span>
+                        </div>
+                        <!--MODAL power2-->
+
+                        <!---->
+                        <div class="clearfix hidden-lg"></div>
+
+                        <div class="powers-power col-sm-4 col-sm-offset-2 col-lg-2 col-lg-offset-1" data-toggle="modal"
+                            data-target="#power3">
+                            <img src="img/power3.png" alt="" class="power-img img-responsive">
+                            <p class="power__text">MICROCRYSTALLINE CELLULOSE</p>
+                            <span class="glyphicon glyphicon-plus-sign power__plus-ico"></span>
+                        </div>
+                        <!--MODAL power3-->
+
+                        <!---->
+                        <div class="clearfix hidden-sm hidden-md"></div>
+
+                        <div class="powers-power col-sm-4 col-lg-2 col-lg-offset-3" data-toggle="modal" data-target="#power4">
+                            <img src="img/power4.png" alt="" class="power-img img-responsive">
+                            <p class="power__text">PRESERVES VITAMINS</p>
+                            <span class="glyphicon glyphicon-plus-sign power__plus-ico"></span>
+                        </div>
+                        <!--MODAL power4-->
+
+                        <!---->
+
+                        <div class="powers-power col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-2" data-toggle="modal"
+                            data-target="#power5">
+                            <img src="img/power5.png" alt="" class="power-img img-responsive">
+                            <p class="power__text">NO LAXATIVE EFFECT</p>
+                            <span class="glyphicon glyphicon-plus-sign power__plus-ico"></span>
+                        </div>
+                        <!--MODAL power5-->
+
+                        <!---->
+                    </div>
+                </div>
+
+               
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sec-nine" id="reviews-sec">
+        <div class="container">
+            <div class="row">
+                <div class="sec-nine-header text-center col-sm-8 col-sm-offset-2">
+                    <h1 class="sec-nine-header__title">Feedback</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Карусель -->
+                <div id="reviews" class="reviews carousel slide col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1"
+                    data-interval="3000" data-ride="carousel">
+                    <!-- Слайды карусели -->
+                    <div class="carousel-inner">
+                        <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                        <div class="active item">
+                            <div class="item-wrap">
+                                <div class="carousel-caption">
+                                    <img src="img/ava2.png" alt="" class="reviews__avatar">
+                                    <div class="reviews-about">
+                                        <p class="reviews__name">Diana</p>
+                                        <p class="reviews__age">37 </p>
+                                        <p class="reviews__text"> THANK YOU VERY MUCH for such an amazing product! My sister Princess was suffering from extra weight and cellulite for many years! We tried everything! We even decided to do some surgeries. Fortunately, my aunt paid a visit. She determined the cause of all problems immediately, dealing with it better than all the doctors! That's what life experience means! She said that the reason to all these problems must be toxins or even parasites. She advised trying Ultra Slim Premium Detox. Good lord! A month later we couldn’t even recognize Princess. She became healthy, strong, and fit! Now I stay alert so no parasite can spoil our lives!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Слайд №2 -->
+                        <div class="item">
+                            <div class="item-wrap">
+                                <div class="carousel-caption">
+                                    <img src="img/ava1.png" alt="" class="reviews__avatar">
+                                    <div class="reviews-about">
+                                        <p class="reviews__name">AMINA</p>
+                                        <p class="reviews__age">23</p>
+                                        <p class="reviews__text"> I carefully studied the composition of Ultra Slim Premium Detox on the website and read reviews. Of course, I had some concerns whether it would help or not. Nevertheless, after talking to the consultants, I decided to give it a try. I followed the recommendations very strictly. At the end of the course, I felt like a different person and my body became like 1000 times prettier and sexier. I was in a good mood, my performance increased. After I got the results of the analyses I jumped for joy! Not a single parasite was left. I don’t even want to imagine that they could grow up to 40 cm in my intestines and cause so much excess kilos! Thanks for curing me!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Слайд №3 -->
+                        <div class="item">
+                            <div class="item-wrap">
+                                <div class="carousel-caption">
+                                    <img src="img/ava3.png" alt="" class="reviews__avatar">
+                                    <div class="reviews-about">
+                                        <p class="reviews__name">Agnes</p>
+                                        <p class="reviews__age">32</p>
+                                        <p class="reviews__text">In 2017, I faced a serious problem - opisthorchiasis. My condition was critical. It all started with the permanent ailment. I passed an examination and was to be checked for parasites. The analyses detected opistorch eggs. The treatment took place in an infectious hospital and was based on chemical preparations. One year later, the parasites returned. I turned to natural remedies.Ultra Slim Premium Detox was the most effective. For the past one and a half years, I’ve been feeling great! I got rid of the allergies, asthma attacks, weakness, dizziness, pain in the right hypochondrium, the tongue became normal in color, the intestines began to work like a clock! What's very important - I got slimmer than I've ever been!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Навигация для карусели -->
+                    <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
+                    <div class="carousel-control-arrows hidden-xs hidden-sm">
+                        <span class="carousel-control left" href="#reviews" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </span>
+                        <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
+                        <span class="carousel-control right" href="#reviews" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </span></div>
+                    <ol class="carousel-indicators hidden-xs hidden-md">
+                        <li data-target="#reviews" data-slide-to="0" class="active"></li>
+                        <li data-target="#reviews" data-slide-to="1"></li>
+                        <li data-target="#reviews" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-buy col-xs-6 col-xs-offset-3 to-form">
+                    <span >BUY NOW!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-ten">
+        <div class="container">
+            <div class="row">
+                <div class="sec-ten-header col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-12 col-lg-offset-0">
+                    <h1 class="sec-ten-title text-center">HOW TO TAKE ULTRA CLEAN PREMIUM DETOX?</h1>
+                </div>
+            </div>
+
+            <div class="sec-ten-uses text-center">
+                <div class="row">
+                    <div class="uses-use col-sm-6 col-md-4">
+                        <img src="img/use1.png" alt="" class="use-img img-responsive">
+                        <p class="use__title">3 Pills</p>
+                        <p class="use__text">THREE TIMES A DAY</p>
+                    </div>
+
+                    <div class="uses-use col-sm-6 col-md-4">
+                        <img src="img/use2.png" alt="" class="use-img img-responsive">
+                        <p class="use__title">BEFORE MEALS</p>
+                        <p class="use__text">WITH A GLASS OF WATER</p>
+                    </div>
+
+                    <div class="uses-use col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-0">
+                        <img src="img/use3.png" alt="" class="use-img img-responsive">
+                        <p class="use__title">TAKE THE</p>
+                        <p class="use__text">COMPLETE COURSE</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-eleven hidden-xs" id="how-get">
+        <div class="container">
+            <div class="row">
+                <div class="header text-center">
+                    <h1 class="header__title">HOW TO BUY</h1>
+                    <h2 class="header__title">ULTRA CLEAN PREMIUM DETOX</h2>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="sec-eleven-how-get col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-0">
+                    <img src="img/how-get1.svg" alt="" class="how-get__img">
+                    <p class="how-get__text">You make an order on our website</p>
+                </div>
+                <div class="sec-eleven-how-get col-sm-4 col-lg-3 col-lg-offset-0">
+                    <img src="img/how-get2.svg" alt="" class="how-get__img">
+
+                    <p class="how-get__text">We call you back to discuss all the details </p>
+                </div>
+                <div class="sec-eleven-how-get col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-0">
+                    <img src="img/how-get3.svg" alt="" class="how-get__img">
+                    <p class="how-get__text">We deliver your order</p>
+                </div>
+                <div class="sec-eleven-how-get col-sm-4 col-lg-3 col-lg-offset-0">
+                    <img src="img/how-get4.svg" alt="" class="how-get__img">
+                    <p class="how-get__text">You pay on delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="sec-twelve hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="header text-center">
+                    <h1 class="header__title header__title--blue">WE DELIVER YOUR ORDER</h1>
+                    <h2 class="header__pretitle">ANYWHERE IN NIGERIA!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <img src="img/sec-twelve-planet.png" alt="" class="planet-img img-responsive col-lg-12">
+            </div>
+        </div>
+    </section>
+    <section class="sec-thirty">
+        <div class="sec-one-content">
+            <div class="container">
+                <div class="row">
+                    <div class="sec-one-header text-center col-md-10 col-md-offset-1">
+                        <p class="prod-name">ULTRA CLEAN PREMIUM DETOX</p>
+                        <p class="sec-one__pretitle">REMOVES TOXINS FROM ORGANISM in a single course</p>
+                        <p class="sec-one__pretitle">PRESERVES VITAMINS AND MICROELEMENTS</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="sec-one-offer col-sm-6 col-lg-4 col-lg-push-4 text-center">
+                        <img src="img/offer.png" alt="" class="sec-one-offer-img img-responsive">
+                    </div>
+                    <div class="sec-one-advantages hidden-sm hidden-md col-lg-4 col-lg-pull-4">
+                        <div class="row">
+                            <div class="advant col-xs-6 col-sm-12 col-sm-offset-0">
+                                <img src="img/body.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">REMOVES PARASITES FROM YOUR BODY </p>
+                                   
+                                </div>
+                            </div>
+                            <div class="advant col-xs-5 col-sm-12 col-sm-offset-0">
+                                <img src="img/leaf.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">CLEANSES THE BODY OF TOXINS </p>
+                                </div>
+                            </div>
+                            <div class="advant col-xs-6 col-sm-12 col-sm-offset-0">
+                                <img src="img/apple.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">AIDS WEIGHT LOSS</p>
+                                </div>
+                            </div>
+                            <div class="advant col-xs-6 col-sm-12 col-sm-offset-0">
+                                <img src="img/arrow.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">PROTECTS THE LIVER FROM HARMFUL INFLUENCES</p>
+                                </div>
+                            </div>
+                            <div class="advant hidden-xs col-xs-6 col-sm-12 col-sm-offset-0">
+                                <img src="img/circle.svg" class="advant__img">
+                                <div class="advant-wrap">
+                                    <p class="advant__title">NORMALIZES METABOLISM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sec-one-form col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-lg-4" id="form-block">
+                        <div class="sec-one-form__discount text-center">
+                            <p style=" display:inline" class="wv_discount">-50%</p> OFF
+                        </div>
+                        <div class="sec-one-form__timer text-center">
+
+                            <p class="timer-end"><b>OFFER EXPIRES IN:</b><b style=" color:#f10101"> 1 DAY</b></p>
+                            <div class="countdown-container" id="countdown-container">
+                            </div>
+
+                        </div>
+
+                        <div class="sec-one__prices text-center">
+                            <span class="price-old wv_old-price x_currency_old">35,998₦</span>
+                            <span class="price-new wv_new-price x_currency">17,999₦</span>
+                        </div>
+                        <form name="myForm1" action="" method="POST" class="wv_order-form form_order">
+                            <div class="form-group target_list_wrap">
+                                <select  name="country_code" id="city" class=" wv_phone form-control js-select"><option value="NG" data-price="17,999₦" data-old_price="35,998₦" data-country_code="NG">Nigeria</option></select>
+                            </div>
+                            <div class="form-group">
+                                <select name="custom[city]" class="wv_phone form-control" required>
+                                    <option value="">Choose city</option>
+                                    <option value="lagos">Lagos</option>
+                                    <option value="abuja">Abuja</option>
+                                    <option value="ibadan">Ibadan</option>
+                                    <option value="owerri">Owerri</option>
+                                    <option value="akure">Akure</option>
+                                    <option value="osogbo">Osogbo</option>
+                                    <option value="ife">Ife</option>
+                                    <option value="ekiti">Ekiti</option>
+<option value="benin">Benin</option>
+                                    <option value="portharcourt">Port Harcourt</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"></label>
+                                <input id="name" name="client" type="text" class="wv_name form-control" placeholder="Name"
+                                    required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone"></label>
+                                <input id="phone" name="phone" type="text" class=" wv_phone form-control phone_mask"
+                                    placeholder="Phone number:" required="">
+                                
+                            </div>
+                            <div class="sec-one-form__discount text-center"><b style=" color:#f10101; font-size: 16px; text-transform: uppercase;">Delivery only to Lagos, Abuja, Ibadan, Calabar, Owerri, Akure, Osogbo, Ife, Ekiti, Benin, Port Harcourt. Delivery is FREE!</b>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn-buy" type="submit">BUY NOW!</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="image__wrapper">
+                    <img src="img/certificate.png" class="minimized" style="width: 100%;">
+                </div>
+            </div>
+
+            <footer style="text-align: center; padding: 15px 10px; color: #ffffff">
+                <a href="terms.html" target="_blank" style="color: #ffffff;">Terms &amp; Conditions </a> |
+                <a href="privacypolicy.html" target="_blank" style="color: #ffffff;">Privacy Policy</a> |
+                <a target="blank" target="_blank" href="returns.html" style="color: #ffffff;">Returns, Refunds and Exchanges Policy</a>
+
+            </footer>
+    </section>
+ 
+   
+    <script src="js/script.js"></script>
+
+
+<!-- UNILAND START -->
+<script type="text/javascript" src="https://uni-pov.orthofix.space/app/web/js/uniland.js?5f0c2bf5abf23"></script>
+<script type="text/javascript">
+    var scripts = [];
+    start = Date.now();
+
+    var uniland = new Uniland();
+
+    uniland.prelandMode = 0;
+    uniland.landId = 697;
+    uniland.landUrl = "https://reginachernova.github.io/ultraclean1/clean/index.html?marker_id=2";
+
+        //названия полей формы, откуда скрипт берет данные
+    //    uniland.aliasName = 'name';
+    //    uniland.aliasEmail = 'email';
+    //    uniland.aliasPhone = 'phone';
+    //    uniland.aliasCountry = 'country';
+    //    uniland.aliasComment = 'comment';
+
+    uniland.aliasGoodCode = 'good_code'; //код продукта из списка
+    uniland.aliasGoodsCount = 'goods_count';//выбранное количество
+    uniland.aliasGoodPrice = 'good_price';//цена за шт
+
+    uniland.urlOrder = 'https://uni-pov.orthofix.space/app/web/api/order';
+    uniland.urlEmail = 'https://uni-pov.orthofix.space/app/web/api/email/get';
+    uniland.sendEmptyForm = true; //поставить false, чтобы не отправлять конверсии с пустыми полями
+
+    
+
+
+    uniland.urlPixel = 'https://uni-pov.orthofix.space/app/web/api/pixel';
+
+    uniland.processPixel();
+
+    uniland.setSpanValueByClass('mt_geo', uniland.getMtGeo('Москва'));
+    uniland.setSpanValueByClass('mt_gender', uniland.getMtGender('Женщин'));
+    uniland.setSpanValueByClass('mt_age', uniland.getMtAge('55'));
+
+    //проверяем есть ли JQ
+    if (!window.jQuery) {
+        scripts.push('https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js');
+    }
+
+    scripts.forEach(function (src) {
+        var jq = document.createElement('script');
+        jq.type = 'text/javascript';
+        jq.src = src;
+        document.getElementsByTagName('head')[0].appendChild(jq);
+    });
+
+    function init() {
+        if (window.jQuery) {
+            $(document).ready(function () {
+                uniland.run();
+            });
+        }
+    }
+
+    //ждем 1 сек пока все загрузится и вешаем события
+    setTimeout(init, 1000);
+</script>
+<noscript>
+    <div><img src="https://uni-pov.orthofix.space/app/web/api/pixel?land_id=697" style="position:absolute; left:-9999px;"
+              alt=""/></div>
+</noscript>
+<!-- UNILAND END -->
+
+
+
+</body>
+
+</html>
